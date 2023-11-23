@@ -8,7 +8,7 @@ const pageStyles = {
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const pageStylesWidth = {
-  maxWidth: "850px"
+  
 }
 const paragraphStyles = {
   marginBottom: 48,
@@ -19,7 +19,7 @@ const codeStyles = {
   padding: 4,
   color: "#A1683A",
   fontSize: "1rem",
-  marginRight: 10,
+  marginRight: 55,
   textDecoration:"underline",
 }
 /*
@@ -48,7 +48,7 @@ const subsectionNameStyles = {
   marginTop: 20,
   marginBottom: 40,
   padding: 4,
-  backgroundColor: "#6C9A8B", //#DECACA",
+  backgroundColor: "#81A397", //"#6C9A8B", //#DECACA",
   fontSize: "1rem",
 }
 const listItemStyles = {
@@ -61,8 +61,21 @@ const emoticonStyles = {
   margin: 20,
   fontSize: "2rem",
 }
+const emoticonStyles2 = {
+  margin: 15,
+  fontSize: "1.5rem",
+}
 const headshotStyles = {
   maxWidth: "100px"
+}
+const cardStyles = {
+  maxWidth: "450px",
+  display:"inline-block",
+  marginRight: 50,
+  verticalAlign: "top"
+}
+const cardSectionStyles = {
+  
 }
 
 const links = [
@@ -201,7 +214,9 @@ const IndexPage = () => {
       <br />Last summer, I worked at Cadence Design Systems as a Software Engineering Intern.
        <br />Aside from tech, my other interests include poetry, word games, dystopian fiction, and acapella!</p>
       
+       <span style={emoticonStyles2}>(๑˘ᵕ˘)ﾟ == ~( ˘▾˘~) == ヘ(^_^ヘ) ヘ(^o^ヘ)</span> 
 
+       <br />
        {links.map(link => (
           <code key={link.url} style={codeStyles}>
             <span>
@@ -212,37 +227,44 @@ const IndexPage = () => {
           </code>
         ))} <br /> <br/>
 
+      <div style={cardSectionStyles}>
+      <div style = {cardStyles}>
       <code style={subsectionNameStyles}>education / skills ✎ᝰ.</code>
       <p style ={paragraphStyles}>
         <ul>
-          <li style ={listItemStyles}>{'>'}{'>'} <b>courses:</b>  Data Structures & Algorithms,  Intro. Machine Learning, Intro. Programming Systems, Probability and Stochastic Systems, Multivariable Calculus, Linear Algebra,
+          <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>courses:</b>  Data Structures & Algorithms,  Intro. Machine Learning, Intro. Programming Systems, Probability and Stochastic Systems, Multivariable Calculus, Linear Algebra,
          Fundamentals of Statistics, Reasoning for Computer Science </li>
           <li style ={sublistItemStyles}>╺╺ <b>intended spring 2024:</b> <em>Distributed Systems</em>, <em>Economics and Computing</em>, <em>Natural Language Processing</em>, <em>Networks</em></li>
           <li style ={listItemStyles}>
-          {'>'}{'>'} <b>skills:</b> 
+          <code>{'>'}{'>'}</code> <b>skills:</b> 
           </li>
           <li style ={sublistItemStyles}>╺╺ <b>prog. languages:</b> Java, Python, C++ </li>
           <li style={sublistItemStyles}>╺╺  <b>frameworks:</b> Flask, React.js, RESTful APIs, SQL, LangChain, Node.js, Git, Unix
           </li>
         </ul>
       </p>
+      </div>
+      <div style = {cardStyles}>
       <code style={subsectionNameStyles}>experience ࿐ ࿔*:･ﾟ</code>
-      
       <p style ={paragraphStyles}>
         <ul>
-          <li style ={listItemStyles}>{'>'}{'>'} <em>Incoming</em> Software Engineering Intern @ Bloomberg | Summer 2024</li>
-          <li style ={listItemStyles}>{'>'}{'>'} Undergraduate Course Assistant / Data Structures Algo Grader @ Princeton Department of Computer Science | Spring, Fall 2023</li>
-          <li style={listItemStyles}> {'>'}{'>'} Software Engineering Intern @ Cadence Design Systems | Summer 2023</li>
-          <li style ={listItemStyles}>{'>'}{'>'} Student Researcher @ University of Connecticut | Summer 2021, Fall 2021</li>
+          <li style ={listItemStyles}><code>{'>'}{'>'}</code> <em>Incoming</em> Software Engineering Intern @ <b>Bloomberg</b> | Summer 2024</li>
+          <li style ={listItemStyles}><code>{'>'}{'>'}</code> Undergraduate Course Assistant / Data Structures Algo Grader @ Princeton Department of Computer Science | Spring, Fall 2023</li>
+          <li style={listItemStyles}> <code>{'>'}{'>'}</code> Software Engineering Intern @ <b>Cadence Design Systems</b> | Summer 2023</li>
+          <li style ={listItemStyles}><code>{'>'}{'>'}</code> Student Researcher @ University of Connecticut | Summer 2021, Fall 2021</li>
         </ul>
       </p>
+      </div>
+      </div>
+
+      <br />
       <code style={subsectionNameStyles}>projects ⋆ ˚｡⋆୨୧˚</code>
       <p style ={paragraphStyles}>
         <ul>
-          <li style ={listItemStyles}>{'>'}{'>'} <b>Product Safety from Text Recognition Application:</b></li>
+          <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>Product Safety from Text Recognition Application:</b></li>
           <li style ={sublistItemStyles}>╺╺ Developed responsive web application diagnosing safety of personal care products from labels with NLP text recognition using Google’s Tesseract OCR and hardware Raspberry PI component.</li>
           <li style ={sublistItemStyles}>╺╺ Built React.js front-end and back-end Flask app with Python and Java backend to recognize potential toxins in ingredients from web-scraped data.</li>
-          <li style ={listItemStyles}>{'>'}{'>'} <b>Dublin Math Course Selection:</b></li>
+          <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>Dublin Math Course Selection:</b></li>
           <li style ={sublistItemStyles}>╺╺ Built a widget and designed a responsive course planner web application to assist high school students in math progression with HTML/CSS, Bootstrap, JavaScript, PHP.</li>
           <li style ={sublistItemStyles}>╺╺ Implemented decision tree to  lter requirements and output possible options through PHP functions.</li>
         </ul>
