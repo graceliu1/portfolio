@@ -15,7 +15,8 @@ const paragraphStyles = {
   marginTop: 20,
 }
 
-const codeStyles = {
+// socialLinkStyles
+const socialLinkStyles = {
   padding: 4,
   color: "#A1683A",
   fontSize: "1rem",
@@ -34,7 +35,7 @@ const headerNameStyles = {
   color: "#5F5555",
   padding: 4,
   backgroundColor: "#F5DDDD", //"#97ded0",
-  fontSize: "2rem",
+  fontSize: "2.15rem",
 }
 const subheaderNameStyles = {
   color: "#4D322E",
@@ -75,7 +76,7 @@ const cardStyles = {
   verticalAlign: "top"
 }
 const cardSectionStyles = {
-  
+  marginTop: "1rem"
 }
 
 const links = [
@@ -206,19 +207,19 @@ const IndexPage = () => {
       
       </div>
       <div style={pageStylesWidth}>
-      <code style={headerNameStyles}>{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code> <span style = {emoticonStyles}></span>
+      <button class="bg-rose-700/10 duration-150 hover:bg-rose-700/30 text-4xl p-1"><code>{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code></button>
       <br /> <br />
-      <code style={subheaderNameStyles}>CS @ Princeton | Class of 2026 | gl2969@princeton.edu </code>
-      
+      <button class="bg-red-700/40 duration-150 hover:bg-red-700/70 px-1 py-0.5"><code>CS @ Princeton | Class of 2026 | gl2969@princeton.edu </code></button>
+     
       <p style={paragraphStyles}>I'm a second-year computer science student interested in SWE, ML, and Quantitative roles.
-      <br />Last summer, I worked at Cadence Design Systems as a Software Engineering Intern.
-       <br />Aside from tech, my other interests include poetry, word games, dystopian fiction, and acapella!</p>
+      <br />On campus, I've involved with acapella, HackPrinceton, SWE, and Princeton Women in Computer Science.
+       <br />Aside from tech, my other interests include poetry, word games, dystopian fiction, and music!</p>
       
-       <span style={emoticonStyles2}>(๑˘ᵕ˘)ﾟ == ~( ˘▾˘~) == ヘ(^_^ヘ) ヘ(^o^ヘ)</span> 
+       <span style={emoticonStyles2}>(๑˘ᵕ˘)ﾟ == ~( ˘▾˘~) == (っ˘ڡ˘ς)</span> 
 
        <br />
        {links.map(link => (
-          <code key={link.url} style={codeStyles}>
+          <code key={link.url} style={socialLinkStyles}>
             <span>
               <a href={`${link.url}`}>
                 {link.text}
@@ -228,37 +229,38 @@ const IndexPage = () => {
         ))} <br /> <br/>
 
       <div style={cardSectionStyles}>
-      <div style = {cardStyles}>
-      <code style={subsectionNameStyles}>education / skills ✎ᝰ.</code>
-      <p style ={paragraphStyles}>
-        <ul>
-          <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>courses:</b>  Data Structures & Algorithms,  Intro. Machine Learning, Intro. Programming Systems, Probability and Stochastic Systems, Multivariable Calculus, Linear Algebra,
-         Fundamentals of Statistics, Reasoning for Computer Science </li>
-          <li style ={sublistItemStyles}>╺╺ <b>intended spring 2024:</b> <em>Distributed Systems</em>, <em>Economics and Computing</em>, <em>Natural Language Processing</em>, <em>Networks</em></li>
-          <li style ={listItemStyles}>
-          <code>{'>'}{'>'}</code> <b>skills:</b> 
-          </li>
-          <li style ={sublistItemStyles}>╺╺ <b>prog. languages:</b> Java, Python, C++ </li>
-          <li style={sublistItemStyles}>╺╺  <b>frameworks:</b> Flask, React.js, RESTful APIs, SQL, LangChain, Node.js, Git, Unix
-          </li>
-        </ul>
-      </p>
-      </div>
-      <div style = {cardStyles}>
-      <code style={subsectionNameStyles}>experience ࿐ ࿔*:･ﾟ</code>
-      <p style ={paragraphStyles}>
-        <ul>
-          <li style ={listItemStyles}><code>{'>'}{'>'}</code> <em>Incoming</em> Software Engineering Intern @ <b>Bloomberg</b> | Summer 2024</li>
-          <li style ={listItemStyles}><code>{'>'}{'>'}</code> Undergraduate Course Assistant / Data Structures Algo Grader @ Princeton Department of Computer Science | Spring, Fall 2023</li>
-          <li style={listItemStyles}> <code>{'>'}{'>'}</code> Software Engineering Intern @ <b>Cadence Design Systems</b> | Summer 2023</li>
-          <li style ={listItemStyles}><code>{'>'}{'>'}</code> Student Researcher @ University of Connecticut | Summer 2021, Fall 2021</li>
-        </ul>
-      </p>
-      </div>
+        <div style = {cardStyles}>
+          <button class="bg-emerald-700/60 duration-150 hover:bg-emerald-900/80 mt-2 mb-2 px-1 py-0.5"><code>education / skills ✎ᝰ.</code></button>
+          <p style ={paragraphStyles}>
+            <ul>
+              <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>courses:</b>  Data Structures & Algorithms,  Intro. Machine Learning, Intro. Programming Systems, Probability and Stochastic Systems, Multivariable Calculus, Linear Algebra,
+            Fundamentals of Statistics, Reasoning for Computer Science </li>
+              <li style ={sublistItemStyles}>╺╺ <b>intended spring 2024:</b> <em>Distributed Systems</em>, <em>Economics and Computing</em>, <em>Natural Language Processing</em>, <em>Networks</em></li>
+              <li style ={listItemStyles}>
+              <code>{'>'}{'>'}</code> <b>skills:</b> 
+              </li>
+              <li style ={sublistItemStyles}>╺╺ <b>prog. languages:</b> Java, Python, C++ </li>
+              <li style={sublistItemStyles}>╺╺  <b>frameworks:</b> Flask, React.js, RESTful APIs, SQL, LangChain, Node.js, Git, Unix
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div style = {cardStyles}>
+          <button class="bg-emerald-700/60 duration-150 hover:bg-emerald-900/80 mt-2 mb-2 px-1 py-0.5"><code>experience ࿐ ࿔*:･ﾟ</code></button>
+          <p style ={paragraphStyles}>
+            <ul>
+              <li style ={listItemStyles}><code>{'>'}{'>'}</code> <em>Incoming</em> Software Engineering Intern @ <b>Bloomberg</b> | Summer 2024</li>
+              <li style ={listItemStyles}><code>{'>'}{'>'}</code> Undergraduate Course Assistant / Data Structures Algo Grader @ Princeton Department of Computer Science | Spring, Fall 2023</li>
+              <li style={listItemStyles}> <code>{'>'}{'>'}</code> Software Engineering Intern @ <b>Cadence Design Systems</b> | Summer 2023</li>
+              <li style ={listItemStyles}><code>{'>'}{'>'}</code> Student Researcher @ University of Connecticut | Summer 2021, Fall 2021</li>
+            </ul>
+          </p>
+        </div>
       </div>
 
       <br />
-      <code style={subsectionNameStyles}>projects ⋆ ˚｡⋆୨୧˚</code>
+      <button class="bg-emerald-700/60 duration-150 hover:bg-emerald-900/80 mt-2 mb-2 px-1 py-0.5"><code>projects ⋆ ˚｡⋆୨୧˚</code></button>
+     
       <p style ={paragraphStyles}>
         <ul>
           <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>Product Safety from Text Recognition Application:</b></li>
@@ -270,10 +272,23 @@ const IndexPage = () => {
         </ul>
       </p>
 
+      <button class="bg-rose-700/20 duration-150 hover:bg-rose-700/30 mt-5 mb-10 p-1"><code>say hello (☆^ー^☆)</code></button>
       </div>
     </main>
   )
 }
+
+/*
+old headers:
+ <br /><code style={headerNameStyles} >{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code> <span style = {emoticonStyles}></span>
+ <code style={subsectionNameStyles}>education / skills ✎ᝰ.</code>
+ <code style={subsectionNameStyles}>experience ࿐ ࿔*:･ﾟ</code>
+ <code style={subsectionNameStyles}>projects ⋆ ˚｡⋆୨୧˚</code>
+ <code style={subheaderNameStyles}>CS @ Princeton | Class of 2026 | gl2969@princeton.edu </code>
+      
+
+
+*/
 
 export default IndexPage
 
