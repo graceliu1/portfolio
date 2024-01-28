@@ -1,3 +1,7 @@
+
+
+regular index.txt
+
 import * as React from "react"
 
 const pageStyles = {
@@ -129,7 +133,8 @@ const links = [
 
         <p class="my-4">
           <ul>
-            <li style ={listItemStyles}><code>{'>'}{'>'}</code> Trading and Technology Winter Intern @ <b>Hudson River Trading</b> | Spring 2024</li>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <em>Incoming</em> Quantitative Trading and Technology Winter Intern @ <b>Hudson River Trading</b> | Spring 2024</li>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <em>Incoming</em> Software Engineering Intern @ <b>Bloomberg</b> | Summer 2024</li>
             <li style ={listItemStyles}><code>{'>'}{'>'}</code> Undergraduate Course Assistant / Data Structures Algo Grader @ <b>Princeton Department of Computer Science</b>| Spring, Fall 2023 </li>
             <li style={listItemStyles}> <code>{'>'}{'>'}</code> Software Engineering Intern @ <b>Cadence Design Systems</b> | Summer 2023</li>
             <li style ={listItemStyles}><code>{'>'}{'>'}</code> Student Researcher @ University of Connecticut | Summer 2021, Fall 2021</li>

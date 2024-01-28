@@ -1,8 +1,8 @@
 import * as React from "react"
 
 const pageStyles = {
-  backgroundColor: "#FFF9F4 ", //#FBF7F4", // 
-  color: "black", // "#4C2E05", //"#232129",
+  backgroundColor: "#FBF7F4", // 
+  color: "#4C2E05", //"#232129",
   padding: 96,
   fontFamily: "Open Sans, -apple-system, Roboto, sans-serif, serif",
 }
@@ -42,69 +42,48 @@ const links = [
     url: "mailto:gl2969@princeton.edu",
   }
 ]
-
-/* <span class=" underline underline-offset-8 decoration-[#AFBE8F] decoration-8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span> <span class="underline underline-offset-8 decoration-[#93B7BE] decoration-8 float-right "> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  </span> */
 /*ƪ(˘⌣˘)ʃ*/
       const IndexPage = () => {
   return (
-    <main class = " flex justify-center items-center " style={pageStyles}>
+    <main class = "border-4 border-blue flex justify-center items-center " style={pageStyles}>
       <div  class = "w-11/12">
 
       
-      <div class ="h-screen items-center ">
 
+      <button class="inline-block bg-rose-700/10 duration-150 hover:bg-rose-700/30 text-4xl p-2"><code>{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code></button>
       
-        <button class="inline-block bg-rose-700/10 duration-150 hover:bg-rose-700/30 text-4xl p-2"><code>{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code></button>
-        
-        <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500" > <a href="#socials">say hi</a> </span>  </code></span>
-        <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500">
-          <a target="_blank" href = "https://docs.google.com/document/d/e/2PACX-1vRAt12DnJGuIbfaXXOlBqrXSmV_1KPa5FcnRl9ATbbP1MF-kABKLHEQ0HimJVqUQGUhXKLH174g6MuT/pub"> resume </a>
-          </span></code></span>
-        <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500"> <a href = "#projects">projects</a> </span> </code></span>
+      <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500" > <a href="#socials">say hi</a> </span>  </code></span>
+      <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500">
+         <a target="_blank" href = "https://docs.google.com/document/d/e/2PACX-1vRAt12DnJGuIbfaXXOlBqrXSmV_1KPa5FcnRl9ATbbP1MF-kABKLHEQ0HimJVqUQGUhXKLH174g6MuT/pub"> resume </a>
+         </span></code></span>
+      <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500"> <a href = "#projects">projects</a> </span> </code></span>
+     
+     
       
       
-        
-        
-        <br /> <br />
+      <br /> <br />
 
-      
-        <button class="bg-[#e3a39b] my-3 duration-150 hover:bg-red-700/70  p-1"><code>CS @ Princeton | Class of 2026 | gl2969@princeton.edu </code></button>
-        <br />
-        <p class="my-4 w-4/6" >Hello! I'm a curious and enthusiastic student interested in <b>Software Engineering</b> and <b>Quantitative Trading</b> roles.
-        I'm studying Computer Science with intended minors in Statistics and Machine Learning & Quantitative Economics. 
-        On campus, I'm involved with Old NasSoul a-capella, HackPrinceton, SWE, and Princeton Women in Computer Science.
-        <br /> <br />
-        I grew up in the Bay Area and interned there last summer at Cadence Design Systems. Some of my favorite pastimes are word games (puzzles of all sorts, really), video games, and music. I also dabble in poetry, which
-        you can check out on this page.
-        I'm always looking to find creative ways to solve new problems :).</p>
-        <br/>
-    
-        
+     
+      <button class="bg-[#e3a39b] my-3 duration-150 hover:bg-red-700/70  p-1"><code>CS @ Princeton | Class of 2026 | gl2969@princeton.edu </code></button>
+      <br />
+      <p class="my-4 w-4/6" >Hello! I'm a curious and enthusiastic student interested in <b>Software Engineering</b> and <b>Quantitative Trading</b> roles.
+      I'm studying Computer Science with intended minors in Statistics and Machine Learning & Quantitative Economics. 
+      On campus, I'm involved with Old NasSoul a-capella, HackPrinceton, SWE, and Princeton Women in Computer Science.
+      <br /> <br />
+      I grew up in the Bay Area and interned there last summer at Cadence Design Systems. Some of my favorite pastimes are word games (puzzles of all sorts, really), video games, and music. I also dabble in poetry, which
+      you can check out on this page.
+       I'm always looking to find creative ways to solve new problems :).</p>
+      <br/>
+  
 
 
-        <span class=" underline underline-offset-8 decoration-[#AFBE8F] decoration-8 mt-3 text-4xl">(๑˘ᵕ˘)ﾟ &nbsp; &nbsp; &nbsp; ~( ˘▾˘~)  </span> <span class="underline underline-offset-8 decoration-[#93B7BE] decoration-8 float-right text-4xl"> ( ˘▽˘)っ  &nbsp; &nbsp; &nbsp; (っ˘ڡ˘ς)  </span> 
-        <br/>
 
-        <span class=" underline underline-offset-1 decoration-[#AFBE8F] decoration-8">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
-        ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-        ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </span>
-        
-        
-         <span class=" float-right underline underline-offset-1 decoration-[#93B7BE] decoration-8">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
-        ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-        ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </span> 
+       <span class=" mt-3 text-4xl">(๑˘ᵕ˘)ﾟ ~( ˘▾˘~)  </span> <span class="float-right text-4xl"> ( ˘▽˘)っ  (っ˘ڡ˘ς)  </span> 
        
-       <div>
-       <span class = "align-left inline bg-[#AFBE8F] w-60 h-3  mt-4 text-4xl"> </span><span class = "inline bg-[#BEE7B8] w-60 h-3 text-4xl"> </span>
-        
-        </div>
-       <div class = "grid place-items-center">
-       <span class="hover:text-slate-500 text-3xl" > <a href="#education">&#8964;</a> </span>
-       </div>
-       </div>
 
-    <div id="education" class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-7">
-      <div class="bg-[#AFBE8F]  duration-150 hover:bg-emerald-700/60 overflow-hidden shadow-sm">
+      
+    <div class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-7">
+      <div class="border-2 border-black bg-emerald-700/40 duration-150 hover:bg-emerald-700/60 overflow-hidden shadow-md">
         <div class="px-12 py-10">
       <button class="text-lg mb-2 px-1 py-0.5"><code>education / skills ✎ᝰ.</code></button>
         
@@ -123,13 +102,14 @@ const links = [
         </p>
         </div>
        </div>
-       <div class="duration-150 bg-[#93B7BE]/60 hover:bg-[#a66f41]/90 overflow-hidden shadow-sm">
+       <div class="border-2 border-black duration-150 bg-[#ab6930]/60 hover:bg-[#a66f41]/90 overflow-hidden shadow-md">
         <div class="px-12 py-10">
        <button class=" text-lg mb-2 px-1 py-0.5"><code>experience ࿐ ࿔*:･ﾟ</code></button>
 
         <p class="my-4">
           <ul>
-            <li style ={listItemStyles}><code>{'>'}{'>'}</code> Trading and Technology Winter Intern @ <b>Hudson River Trading</b> | Spring 2024</li>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <em>Incoming</em> Quantitative Trading and Technology Winter Intern @ <b>Hudson River Trading</b> | Spring 2024</li>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <em>Incoming</em> Software Engineering Intern @ <b>Bloomberg</b> | Summer 2024</li>
             <li style ={listItemStyles}><code>{'>'}{'>'}</code> Undergraduate Course Assistant / Data Structures Algo Grader @ <b>Princeton Department of Computer Science</b>| Spring, Fall 2023 </li>
             <li style={listItemStyles}> <code>{'>'}{'>'}</code> Software Engineering Intern @ <b>Cadence Design Systems</b> | Summer 2023</li>
             <li style ={listItemStyles}><code>{'>'}{'>'}</code> Student Researcher @ University of Connecticut | Summer 2021, Fall 2021</li>
@@ -143,9 +123,24 @@ const links = [
   
     <br />
     
+    <section id = "projects" class="bg-[#e3a39b] duration-150 hover:bg-[#e3a39b]/100 border-2 border-black  overflow-hidden shadow-md">
+        <div class="px-12 py-10">
+        <button class="text-lg mt-2 mb-2 px-1 py-0.5"><code>resume ⋆ ˚｡⋆୨୧˚</code></button>
+        <p class="my-4">
+          <ul>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>Product Safety from Text Recognition Application:</b></li>
+            
+            
+           
+          </ul>
+        </p>
+        </div>
+    </section>
+    
+    <br />
     
     <div class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-7">
-      <div class="duration-150 bg-[#ab6930]/70 hover:bg-[#a66f41]/90 overflow-hidden shadow-sm">
+      <div class="border-2 border-black duration-150 bg-[#ab6930]/70 hover:bg-[#a66f41]/90 overflow-hidden shadow-md">
         <div class="px-12 py-10">
        <button class=" text-lg mb-2 px-1 py-0.5"><code>PROJECT : eluo for product safety</code></button>
 
@@ -159,7 +154,7 @@ const links = [
         </div>
       </div>
 
-      <div class=" bg-emerald-700/40 duration-150 hover:bg-emerald-700/60 overflow-hidden shadow-md">
+      <div class="border-2 border-black bg-emerald-700/40 duration-150 hover:bg-emerald-700/60 overflow-hidden shadow-md">
         <div class="px-12 py-10">
       <button class="text-lg mb-2 px-1 py-0.5"><code>PROJECT : DHS math course planner </code></button>
         
@@ -176,10 +171,10 @@ const links = [
 
     <br />
 
-    <section id = "poetry" class="bg-[#e3a39b] duration-150 hover:bg-[#e3a39b]/100 overflow-hidden">
+    <section id = "poetry" class="bg-[#e3a39b] duration-150 hover:bg-[#e3a39b]/100 border-2 border-black  overflow-hidden shadow-md">
         <div class="px-12 py-10">
         <button class="text-lg mt-2 mb-2 px-1 py-0.5"><code>poetry ⋆ ˚｡⋆୨୧˚</code></button>
-        <section style = {poemStyles} class="bg-white  p-8 my-4">
+        <section style = {poemStyles} class="bg-white border-dotted border-black border-2 p-8 my-4">
           
         <div class = "underline mb-4">the foreigner<br /></div>
           <b>i. <em>chu sheng</em> / beginning: </b>
@@ -207,10 +202,9 @@ const links = [
           the mirage of six months of my childhood.
           
           longing and reluctant to leave, i turn towards:
-                    the city of a thousand western luxuries,
-                    
+                    the modern city of infinite western luxuries,
+                    a (still) too-tight <em>qi pao</em> discarded on the floor,
                     the bloodstains of a hundred past conquerors.
-                    one too-tight <em>qi pao</em> discarded on the floor,
           a modern skyline awaits me
           (boarding terminal 50–65, i shed the skin
           that i have worn for the past twenty-eight days).
@@ -220,7 +214,7 @@ const links = [
         </section>
 
 
-        <section style = {poemStyles} class="bg-white p-8 my-4">
+        <section style = {poemStyles} class="bg-white border-dotted border-black border-2 p-8 my-4">
           
         <div class = "underline mb-4">eight ph(r)ases of chang’e monologue <br /></div>
 

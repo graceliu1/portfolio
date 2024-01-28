@@ -1,8 +1,8 @@
 import * as React from "react"
 
 const pageStyles = {
-  backgroundColor: "#FFF9F4 ", //#FBF7F4", // 
-  color: "black", // "#4C2E05", //"#232129",
+  backgroundColor: "#FBF7F4", //"black", //
+  // color: "white", // "#4C2E05", //"#232129",
   padding: 96,
   fontFamily: "Open Sans, -apple-system, Roboto, sans-serif, serif",
 }
@@ -54,13 +54,13 @@ const links = [
       <div class ="h-screen items-center ">
 
       
-        <button class="inline-block bg-rose-700/10 duration-150 hover:bg-rose-700/30 text-4xl p-2"><code>{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code></button>
+        <button class="text-[#FF9535] inline-block text-4xl p-2"><code>{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code></button>
         
-        <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500" > <a href="#socials">say hi</a> </span>  </code></span>
-        <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500">
+        <span class="text-[#4bff36] text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500" > <a href="#socials">say hi</a> </span>  </code></span>
+        <span class="text-[#4bff36] text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500">
           <a target="_blank" href = "https://docs.google.com/document/d/e/2PACX-1vRAt12DnJGuIbfaXXOlBqrXSmV_1KPa5FcnRl9ATbbP1MF-kABKLHEQ0HimJVqUQGUhXKLH174g6MuT/pub"> resume </a>
           </span></code></span>
-        <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500"> <a href = "#projects">projects</a> </span> </code></span>
+        <span class="text-[#4bff36] text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500"> <a href = "#projects">projects</a> </span> </code></span>
       
       
         
@@ -68,9 +68,9 @@ const links = [
         <br /> <br />
 
       
-        <button class="bg-[#e3a39b] my-3 duration-150 hover:bg-red-700/70  p-1"><code>CS @ Princeton | Class of 2026 | gl2969@princeton.edu </code></button>
+        <button class="my-3 duration-150 text-[#F23CA6] p-1"><code>CS @ Princeton | Class of 2026 | gl2969@princeton.edu </code></button>
         <br />
-        <p class="my-4 w-4/6" >Hello! I'm a curious and enthusiastic student interested in <b>Software Engineering</b> and <b>Quantitative Trading</b> roles.
+        <p class="text-[#5e57ff] my-4 w-4/6" >Hello! I'm a curious and enthusiastic student interested in <b>Software Engineering</b> and <b>Quantitative Trading</b> roles.
         I'm studying Computer Science with intended minors in Statistics and Machine Learning & Quantitative Economics. 
         On campus, I'm involved with Old NasSoul a-capella, HackPrinceton, SWE, and Princeton Women in Computer Science.
         <br /> <br />
@@ -82,15 +82,15 @@ const links = [
         
 
 
-        <span class=" underline underline-offset-8 decoration-[#AFBE8F] decoration-8 mt-3 text-4xl">(๑˘ᵕ˘)ﾟ &nbsp; &nbsp; &nbsp; ~( ˘▾˘~)  </span> <span class="underline underline-offset-8 decoration-[#93B7BE] decoration-8 float-right text-4xl"> ( ˘▽˘)っ  &nbsp; &nbsp; &nbsp; (っ˘ڡ˘ς)  </span> 
+        <span class=" underline underline-offset-8 decoration-[#4bff36] text-[#4bff36] decoration-8 mt-3 text-4xl">(๑˘ᵕ˘)ﾟ &nbsp; &nbsp; &nbsp; ~( ˘▾˘~)  </span> <span class="underline underline-offset-8 decoration-[#02FEE4] decoration-8 float-right text-4xl"> ( ˘▽˘)っ  &nbsp; &nbsp; &nbsp; (っ˘ڡ˘ς)  </span> 
         <br/>
 
-        <span class=" underline underline-offset-1 decoration-[#AFBE8F] decoration-8">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+        <span class=" underline underline-offset-1 decoration-[#4bff36] decoration-8">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
         ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
         ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </span>
         
         
-         <span class=" float-right underline underline-offset-1 decoration-[#93B7BE] decoration-8">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+         <span class=" float-right underline underline-offset-1 decoration-[#02FEE4] decoration-8">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
         ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
         ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </span> 
        
@@ -129,7 +129,8 @@ const links = [
 
         <p class="my-4">
           <ul>
-            <li style ={listItemStyles}><code>{'>'}{'>'}</code> Trading and Technology Winter Intern @ <b>Hudson River Trading</b> | Spring 2024</li>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <em>Incoming</em> Quantitative Trading and Technology Winter Intern @ <b>Hudson River Trading</b> | Spring 2024</li>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <em>Incoming</em> Software Engineering Intern @ <b>Bloomberg</b> | Summer 2024</li>
             <li style ={listItemStyles}><code>{'>'}{'>'}</code> Undergraduate Course Assistant / Data Structures Algo Grader @ <b>Princeton Department of Computer Science</b>| Spring, Fall 2023 </li>
             <li style={listItemStyles}> <code>{'>'}{'>'}</code> Software Engineering Intern @ <b>Cadence Design Systems</b> | Summer 2023</li>
             <li style ={listItemStyles}><code>{'>'}{'>'}</code> Student Researcher @ University of Connecticut | Summer 2021, Fall 2021</li>
