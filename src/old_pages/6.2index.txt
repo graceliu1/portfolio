@@ -2,7 +2,7 @@ import * as React from "react"
 
 const pageStyles = {
   
-  backgroundColor: "#FBF6F5", /*"#F9F6EF",*/
+  backgroundColor: "#F9F6EF",
   color: "black",
   padding: 96,
   fontFamily: "Open Sans, -apple-system, Roboto, sans-serif, serif",
@@ -24,12 +24,9 @@ const listItemStyles = {
 }
 const sublistItemStyles = {
   marginLeft: 15,
-  marginBottom: 5
 }
 const poemStyles = {
-  fontFamily: "Cormorant Garamond",
-  borderWidth: "3px",
-  borderColor: "black"
+  fontFamily: "Cormorant Garamond"
 }
 
 const links = [
@@ -55,32 +52,33 @@ const links = [
       <div  class = "w-11/12">
 
       
-      <div class ="my-5 h-screen items-center ">
+      <div class ="my-7 h-screen items-center ">
       
         <button class="inline-block my-4 bg-rose-600/10 duration-150 hover:bg-rose-700/30 text-4xl p-2"><code>{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code></button>
         
-        <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500" > <a target="_blank" href="https://www.linkedin.com/in/grace-l-2b1a9218a/">say hi</a> </span>  </code></span>
+        <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500" > <a href="#socials">say hi</a> </span>  </code></span>
         <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500">
-          <a target="_blank" href = "https://www.overleaf.com/read/mrzdgbjnmvgj#0841f4"> resume </a>
+          <a target="_blank" href = "https://docs.google.com/document/d/e/2PACX-1vRAt12DnJGuIbfaXXOlBqrXSmV_1KPa5FcnRl9ATbbP1MF-kABKLHEQ0HimJVqUQGUhXKLH174g6MuT/pub"> resume </a>
           </span></code></span>
-        <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500"> <a  target="_blank" href = "https://www.github.com/graceliu1">projects</a> </span> </code></span>
+        <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500"> <a href = "#projects">projects</a> </span> </code></span>
       
       
+        
+    
+
       
-      
-        <button class="bg-[#E5B5AB] my-6 duration-150 hover:bg-red-700/70  p-1"><code>Class of 2026 | gl2969@princeton.edu </code></button>
+        <button class="bg-[#E5B5AB] my-6 duration-150 hover:bg-red-700/70  p-1"><code>CS @ Princeton | Class of 2026 | gl2969@princeton.edu </code></button>
         <br />
-        <p class="my-4 w-4/6" >Hello! I'm a (rising) third-year student studying <b>Computer Science</b> at <b>Princeton</b>!
-        I grew up in the eastern part of the Bay Area. Some of my interests include word games, crosswords, video games, poetry, and music. 
-        <br/>  
-        <br />
-        I'm interested in <b>software engineering</b> and <b>trading</b> roles for Summer 2025. On campus, I'm involved with Old NasSoul a-capella, HackPrinceton, 
-        Society of Women Engineers, <br />and Princeton Women in Computer Science.
-          Reach out for a chat :).</p>
+        <p class="my-4 w-4/6" >Hello! I'm a curious and enthusiastic student interested in <b>Software Engineering</b> and <b>Quantitative Trading</b> roles.
+        On campus, I'm involved with Old NasSoul a-capella, HackPrinceton, SWE, and Princeton Women in Computer Science.
+        <br /> <br />
+        I grew up in the Bay Area. Some of my interests include word games (crosswords!), video games, poetry, and music. Reach out for a chat :).</p>
         <br/>
     
         
-        <span class=" underline underline-offset-8 decoration-[#AFBE8F] decoration-8 mt-3 text-4xl">(๑˘ᵕ˘)ﾟ &nbsp; &nbsp; &nbsp; ~( ˘▾˘~)  </span> <span class="underline underline-offset-8 decoration-[#a66f41] decoration-8 float-right text-4xl"> ( ˘▽˘)っ  &nbsp; &nbsp; &nbsp; (っ˘ڡ˘ς)  </span> 
+
+
+        <span class=" underline underline-offset-8 decoration-[#AFBE8F] decoration-8 mt-3 text-4xl">(๑˘ᵕ˘)ﾟ &nbsp; &nbsp; &nbsp; ~( ˘▾˘~)  </span> <span class="underline underline-offset-8 decoration-[#93B7BE] decoration-8 float-right text-4xl"> ( ˘▽˘)っ  &nbsp; &nbsp; &nbsp; (っ˘ڡ˘ς)  </span> 
         <br/>
 
         <span class=" underline underline-offset-1 decoration-[#AFBE8F] decoration-8">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
@@ -88,7 +86,7 @@ const links = [
         ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </span>
         
         
-         <span class=" float-right underline underline-offset-1 decoration-[#a66f41] decoration-8">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+         <span class=" float-right underline underline-offset-1 decoration-[#93B7BE] decoration-8">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
         ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
         ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </span> 
        
@@ -102,35 +100,35 @@ const links = [
        </div>
 
     <div id="education" class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-7">
-      <div class="bg-[#AFBE8F]  duration-150 overflow-hidden shadow-sm">
+      <div class="bg-[#AFBE8F]  duration-150 hover:bg-emerald-700/60 overflow-hidden shadow-sm">
         <div class="px-12 py-10">
-      <button class="text-lg mb-2 px-1 py-0.5"><code>education ✎ᝰ.</code></button>
+      <button class="text-lg mb-2 px-1 py-0.5"><code>education / skills ✎ᝰ.</code></button>
         
         <p class="my-4">
           <ul>
-           <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>course of study:</b> computer science</li>
-            <li style ={listItemStyles}> <code>{'>'}{'>'}</code><b>minors:</b> statistics & ML, quantitative economics</li>
-            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>notable courses:</b> </li>
-            <li style ={sublistItemStyles}><code>{'>'}</code> Probability & Stochastic Systems</li>
-            <li style ={sublistItemStyles}><code>{'>'}</code> Distributed Systems</li>
-            <li style ={sublistItemStyles}><code>{'>'}</code> Economics & Computing (Game Theory) </li>  
-            <li style ={sublistItemStyles}><code>{'>'}</code> Algorithms & Data Structures</li>
-            <li style ={sublistItemStyles}><code>{'>'}</code> Computer Vision</li>
-            <li style ={sublistItemStyles}><code>{'>'}</code> Mathematical Microeconomics</li>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>courses:</b>  Data Structures & Algorithms,  Intro. Machine Learning, Intro. Programming Systems, Probability and Stochastic Systems, Multivariable Calculus, Linear Algebra,
+          Fundamentals of Statistics, Reasoning for Computer Science </li>
+            <li style ={sublistItemStyles}>╺╺ <b>intended spring 2024:</b> <em>Distributed Systems</em>, <em>Economics and Computing</em>, <em>Natural Language Processing</em>, <em>Networks</em></li>
+            <li style ={listItemStyles}>
+            <code>{'>'}{'>'}</code> <b>skills:</b> 
+            </li>
+            <li style ={sublistItemStyles}>╺╺ <b>prog. languages:</b> Java, Python, C++ </li>
+            <li style={sublistItemStyles}>╺╺  <b>frameworks:</b> Flask, React.js, RESTful APIs, SQL, LangChain, Node.js, Git, Unix
+            </li>
           </ul>
         </p>
         </div>
        </div>
-       <div class="duration-150 bg-[#a66f41]/80 hover:bg-[#a66f41]/90 overflow-hidden shadow-sm">
+       <div class="duration-150 bg-[#93B7BE]/60 hover:bg-[#a66f41]/90 overflow-hidden shadow-sm">
         <div class="px-12 py-10">
        <button class=" text-lg mb-2 px-1 py-0.5"><code>experience ࿐ ࿔*:･ﾟ</code></button>
 
         <p class="my-4">
           <ul>
-            <li style ={listItemStyles}><code>{'>'}{'>'}</code> Software Engineering Intern - Market Feeds Platform @ <b>Bloomberg L.P.</b> | Summer 2024</li>
             <li style ={listItemStyles}><code>{'>'}{'>'}</code> Trading and Technology Winter Intern @ <b>Hudson River Trading</b> | Spring 2024</li>
-            <li style ={listItemStyles}><code>{'>'}{'>'}</code> Grading Manager (Undergraduate Course Assistant) <b> @ Princeton Department of Computer Science</b>| Spring, Fall 2023 </li>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> Undergraduate Course Assistant / Data Structures Algo Grader @ <b>Princeton Department of Computer Science</b>| Spring, Fall 2023 </li>
             <li style={listItemStyles}> <code>{'>'}{'>'}</code> Software Engineering Intern @ <b>Cadence Design Systems</b> | Summer 2023</li>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> Student Researcher @ University of Connecticut | Summer 2021, Fall 2021</li>
           </ul>
         </p>
         </div>
@@ -140,8 +138,44 @@ const links = [
 
   
     <br />
+    
+    
+    <div class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-7">
+      <div class="duration-150 bg-[#ab6930]/70 hover:bg-[#a66f41]/90 overflow-hidden shadow-sm">
+        <div class="px-12 py-10">
+       <button class=" text-lg mb-2 px-1 py-0.5"><code>PROJECT : eluo for product safety</code></button>
 
-    <section style = {poemStyles} class="bg-white  p-8 my-4">
+        <p class="my-4">
+          <ul>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>Product Safety from Text Recognition Application:</b></li>
+            <li style ={sublistItemStyles}>╺╺ Developed responsive web application diagnosing safety of personal care products from labels with NLP text recognition using Google’s Tesseract OCR and hardware Raspberry PI component.</li>
+            <li style ={sublistItemStyles}>╺╺ Built React.js front-end and back-end Flask app with Python and Java backend to recognize potential toxins in ingredients from web-scraped data.</li>
+          </ul>
+        </p>
+        </div>
+      </div>
+
+      <div class=" bg-emerald-700/40 duration-150 hover:bg-emerald-700/60 overflow-hidden shadow-md">
+        <div class="px-12 py-10">
+      <button class="text-lg mb-2 px-1 py-0.5"><code>PROJECT : DHS math course planner </code></button>
+        
+        <p class="my-4">
+          <ul>
+            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>Dublin Math Course Selection:</b></li>
+            <li style ={sublistItemStyles}>╺╺ Built a widget and designed a responsive course planner web application to assist high school students in math progression with HTML/CSS, Bootstrap, JavaScript, PHP.</li>
+            <li style ={sublistItemStyles}>╺╺ Implemented decision tree to filter requirements and output possible options through PHP functions.</li>
+          </ul>
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <section id = "poetry" class="bg-[#e3a39b] duration-150 hover:bg-[#e3a39b]/100 overflow-hidden">
+        <div class="px-12 py-10">
+        <button class="text-lg mt-2 mb-2 px-1 py-0.5"><code>poetry ⋆ ˚｡⋆୨୧˚</code></button>
+        <section style = {poemStyles} class="bg-white  p-8 my-4">
           
         <div class = "underline mb-4">the foreigner<br /></div>
           <b>i. <em>chu sheng</em> / beginning: </b>
@@ -181,14 +215,13 @@ const links = [
 <br /><br /><em class = "text-sm">part of "origin" collection - awarded gold medal in the 2021 scholastic art and writing awards</em>
         </section>
 
-      
 
         <section style = {poemStyles} class="bg-white p-8 my-4">
           
         <div class = "underline mb-4">eight ph(r)ases of chang’e monologue <br /></div>
 
 
-        inspired by the legend of chang'e, the scorned goddess of the moon in chinese mythology <br />
+        inspired by the legend of 嫦娥, the scorned goddess of the moon in chinese mythology <br />
         I. My palace is cold.  <br />
         II. Far away from your arrows and fire, <br />
         III. I welcome your accusing glare. <br />
@@ -201,6 +234,11 @@ const links = [
           <br /><br /><em class = "text-sm">part of "origin" collection - awarded gold medal in the 2021 scholastic art and writing awards, gold key in regional competition</em>
           </section>
         
+
+        </div>
+    </section>
+
+
 
       <br />
       <div class= "flex justify-center items-center" id = "socials">
