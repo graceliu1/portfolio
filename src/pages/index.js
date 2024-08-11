@@ -47,9 +47,9 @@ const links = [
 // const titleColor = "bg-[#b75d69]"
 // const subtitleColor = "bg-[#774c60]"
 const blockColor1 = "bg-[#b97375]"
-const spanColor1 = "decoration-[#b97375]"
+const spanColor1 = "decoration-[#98b07d]"
 const blockColor2 = "bg-[#f1e4e8]"
-const spanColor2 = "decoration-[#f1e4e8]"
+const spanColor2 = "decoration-[#a66f41]"
 /* old theme */
 const bgColor = "bg-[#FBF6F5]"
 const titleColor = "bg-rose-600/10 hover:bg-rose-700/30"
@@ -78,7 +78,7 @@ const IndexPage = () => {
       
         <button class={`${subtitleColor} my-6 duration-150   p-1`}><code>Class of 2026 | gl2969@princeton.edu </code></button>
         <br />
-        <p class="my-4 w-4/6" >Hello! I'm a third-year student studying <b>Computer Science</b> at Princeton.
+        <p class="my-4 w-4/6" >Hello! I'm a third-year student studying <b>Computer Science</b> at Princeton!
         I grew up in the east Bay Area but I've been working in NYC for the past few seasons.
          Some of my interests are word games, 
         crosswords, video games, poetry, and music. 
