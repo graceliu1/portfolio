@@ -51,7 +51,7 @@ const spanColor1 = "decoration-[#98b07d]"
 const blockColor2 = "bg-[#f1e4e8]"
 const spanColor2 = "decoration-[#a66f41]"
 /* old theme */
-const bgColor = "bg-[#FBF6F5]"
+const bgColor = "bg-[#fffdfc]"
 const titleColor = "bg-rose-600/10 hover:bg-rose-700/30"
 const subtitleColor = "bg-[#edbcb2] hover:bg-[#edb2a6]"
 // const blockColor1 = ""
@@ -62,8 +62,7 @@ const IndexPage = () => {
     <main class = {`flex justify-center items-center ${bgColor}`} style={pageStyles}>
       <div  class = "w-11/12">
 
-      
-      <div class ="my-5 h-screen items-center ">
+      <div class ="my-3 h-screen items-center ">
       
         <button class={`inline-block my-4 ${titleColor} duration-150 text-4xl p-2`}><code>{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code></button>
         
@@ -79,7 +78,7 @@ const IndexPage = () => {
         <button class={`${subtitleColor} my-6 duration-150   p-1`}><code>Class of 2026 | gl2969@princeton.edu </code></button>
         <br />
         <p class="my-4 w-4/6" >Hello! I'm a third-year student studying <b>Computer Science</b> at Princeton!
-        I grew up in the east Bay Area but I've been working in NYC for the past few seasons.
+        I grew up in the east Bay Area but I've recently been working in NYC.
          Some of my interests are word games, 
         crosswords, video games, poetry, and music. 
         <br/>  
@@ -114,13 +113,12 @@ const IndexPage = () => {
       <div class="bg-[#a2b88a] hover:bg-[#98b07d] duration-150 overflow-hidden shadow-sm">
         <div class="px-12 py-10">
       <button class="text-lg mb-2 px-1 py-0.5"><code>education ✎ᝰ.</code></button>
-        
         <p class="my-4">
           <ul>
            <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>major:</b> computer science</li>
             <li style ={listItemStyles}> <code>{'>'}{'>'}</code> <b>minors:</b> statistics & ML, quantitative economics</li>
             <li style ={listItemStyles}><code>{'>'}{'>'}</code> <b>relevant coursework:</b> </li>
-            <li style ={sublistItemStyles}><code>{'>'}</code> Probability & Stochastic Systems</li>
+            <li class ="my-3" style ={sublistItemStyles}><code>{'>'}</code> Probability & Stochastic Systems</li>
             <li style ={sublistItemStyles}><code>{'>'}</code> Distributed Systems</li>
             <li style ={sublistItemStyles}><code>{'>'}</code> Economics & Computing (Game Theory) </li>  
             <li style ={sublistItemStyles}><code>{'>'}</code> Algorithms & Data Structures</li>
