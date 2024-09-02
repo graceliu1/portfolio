@@ -51,7 +51,7 @@ const spanColor1 = "decoration-[#98b07d]"
 const blockColor2 = "bg-[#f1e4e8]"
 const spanColor2 = "decoration-[#a66f41]"
 /* old theme */
-const bgColor = "bg-[#fffdfc]"
+const bgColor = "bg-[#FFFEFE]"
 const titleColor = "bg-rose-600/10 hover:bg-rose-700/30"
 const subtitleColor = "bg-[#edbcb2] hover:bg-[#edb2a6]"
 // const blockColor1 = ""
@@ -245,4 +245,4 @@ old headers:
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Grace Liu</title>

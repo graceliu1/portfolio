@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `personal_portfolio`,
-    siteUrl: `https://www.grace-liu.netlify.app`
+    siteUrl: `https://www.grace-liu.netlify.app`,
   },
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image",
   "gatsby-plugin-sharp", 
@@ -30,5 +30,11 @@ module.exports = {
           ],
         },
       },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        "icon": "src/images/icon.png"
+      }
+    },
 ]
 };
