@@ -49,8 +49,8 @@ const links = [
 
 const bgColor = "bg-[#002451]" // editor.background
 const textColor = "text-[#FFFFFF]" // editor.foreground
-const titleColor = "text-[#ffeead] hover:bg-[#001733]" // titleBar.activeBackground and terminal.ansiYellow
-const subtitleColor = " text-[#99ffff] hover:bg-[#001733]" // activityBar.background and terminal.ansiCyan
+const titleColor = "text-[#ffeead] hover:bg-[#001733] hover:text-[#bbdaff]" // titleBar.activeBackground and terminal.ansiYellow
+const subtitleColor = " text-[#99ffff] hover:bg-[#001733] hover:text-[#8acb88]" // activityBar.background and terminal.ansiCyan
 const blockColor1 = "bg-[#d1f1a9]" // terminal.ansiGreen
 const spanColor1 = "decoration-[#d1f1a9]"
 const blockColor2 = "bg-[#ff9da4]" // terminal.ansiRed
@@ -70,11 +70,11 @@ const IndexPage = () => {
 
           <button class={`inline-block my-4 ${titleColor} duration-150 text-4xl p-2`}><code>{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code></button>
 
-          <span class={`text-lg ml-5 inline-block float-right text-[${navbarTextColor}] hover:text-[${navbarHoverColor}]`}><code> <span class={`hover:bg-[${navbarHoverBgColor}] p-1`} ><a target="_blank" href="https://www.linkedin.com/in/grace-l-2b1a9218a/">{'{'}say hi{'}'}</a></span>  </code></span>
+          <span class={`text-lg ml-5 inline-block float-right text-[${navbarTextColor}] hover:text-[${navbarHoverColor}] duration-150 `}><code> <span class={`hover:bg-[${navbarHoverBgColor}] p-1`} ><a target="_blank" href="https://www.linkedin.com/in/grace-l-2b1a9218a/">{'{'}say hi{'}'}</a></span>  </code></span>
 
-          <span class={`text-lg ml-5 inline-block float-right text-[${navbarTextColor}] hover:text-[${navbarHoverColor}]`}><code><span class={`hover:bg-[${navbarHoverBgColor}] p-1`}><a target="_blank" href="mailto:gl2969@princeton.edu?subject=Request for Grace Liu's Resume">{'{'}resume{'}'}</a></span></code></span>
+          <span class={`text-lg ml-5 inline-block float-right text-[${navbarTextColor}] hover:text-[${navbarHoverColor}] duration-150 `}><code><span class={`hover:bg-[${navbarHoverBgColor}] p-1`}><a target="_blank" href="mailto:gl2969@princeton.edu?subject=Request for Grace Liu's Resume">{'{'}resume{'}'}</a></span></code></span>
 
-          <span class={`text-lg ml-5 inline-block float-right text-[${navbarTextColor}] hover:text-[${navbarHoverColor}]`}><code><span class={`hover:bg-[${navbarHoverBgColor}] p-1`}>{'{'}<a target="_blank" href="https://www.github.com/graceliu1">projects{'}'}</a> </span> </code></span>
+          <span class={`text-lg ml-5 inline-block float-right text-[${navbarTextColor}] hover:text-[${navbarHoverColor}] duration-150 `}><code><span class={`hover:bg-[${navbarHoverBgColor}] p-1`}>{'{'}<a target="_blank" href="https://www.github.com/graceliu1">github{'}'}</a> </span> </code></span>
 
           {/* <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500" > <a target="_blank" href="https://www.linkedin.com/in/grace-l-2b1a9218a/">say hi</a> </span>  </code></span>
           <span class="text-lg ml-5 inline-block float-right"><code>{'<'}{'<'} <span class="hover:text-slate-500">
@@ -84,7 +84,7 @@ const IndexPage = () => {
 
           <button class={`${subtitleColor} my-6 duration-150  pl-2 p-1`}><code>{'>'}{'>'} Class of 2026 |{'>'} gl2969@princeton.edu </code></button>
           <br />
-          <p class="my-4 w-4/6" >Hello! I'm a third-year student studying Computer Science at Princeton!
+          <p class="my-4 w-4/6" >Hello, I'm a third-year Computer Science student!
             I grew up in the east Bay Area but am currently located in New Jersey.
             <br />
             <br />
@@ -93,18 +93,12 @@ const IndexPage = () => {
             On campus, I'm involved with Old NasSoul a-capella, ACM, and Princeton Women in CS. I'm interested in <b>software engineering</b> and <b>machine learning</b> roles.
             {' '}Reach out for a chat :).</p>
           <br />
-
-          <span class={`underline underline-offset-8 ${spanColor1} text-[#d1f1a9] decoration-6 mt-3 text-4xl`}>(๑˘ᵕ˘)ﾟ &nbsp; &nbsp; &nbsp; ~( ˘▾˘~)  </span>
-          <span class={`underline underline-offset-8 ${spanColor2} text-[#ff9da4] decoration-6 float-right text-4xl`}> ( ˘▽˘)っ  &nbsp; &nbsp; &nbsp; (っ˘ڡ˘ς)  </span>
           <br />
 
-          {/* <span class={`underline underline-offset-1 ${spanColor1} decoration-8`}>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-            ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-            ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </span>
+          <span class={`duration-150 underline underline-offset-8 ${spanColor1} text-[#d1f1a9] hover:bg-[#001733] decoration-6 mt-3 text-4xl`}>(๑˘ᵕ˘)ﾟ &nbsp; &nbsp; &nbsp; ~( ˘▾˘~)  </span>
+          <span class={`duration-150  underline underline-offset-8 ${spanColor2} text-[#ff9da4] hover:bg-[#001733]  decoration-6 float-right text-4xl`}> ( ˘▽˘)っ  &nbsp; &nbsp; &nbsp; (っ˘ڡ˘ς)  </span>
+          <br />
 
-          <span class={`float-right underline underline-offset-1 ${spanColor2} decoration-8`}>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-            ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
-            ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </span> */}
 
           <div>
             <span class={`align-left inline ${blockColor1} w-60 h-3  mt-4 text-4xl`}> </span>
@@ -116,7 +110,7 @@ const IndexPage = () => {
         </div>
 
         <div id="education" class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-7">
-          <div class="bg-[#001126] hover:bg-[#001126] duration-150 overflow-hidden shadow-sm"> {/* Dark blue/black background */}
+          <div class="bg-[#001733] hover:bg-[#001126] duration-150 overflow-hidden shadow-sm"> {/* Dark blue/black background */}
             <div class="px-12 py-10">
               <button class="text-lg mb-2 px-1 py-0.5 text-[#8fb56e]"><code>{'{'}education{'}'}</code></button> {/* Green text */}
               <p class="my-4">
@@ -129,24 +123,24 @@ const IndexPage = () => {
                   <li style={sublistItemStyles}><code>{'>'}</code> Economics & Computing (Game Theory)</li>
                   <li style={sublistItemStyles}><code>{'>'}</code> Computer Vision</li>
                   <li style={sublistItemStyles}><code>{'>'}</code> Machine Learning</li>
-                  <li style={sublistItemStyles}><code>{'>'}</code>Functional Programming*</li>
-                  <li style={sublistItemStyles}><code>{'>'}</code>Regression*</li>
+                  <li style={sublistItemStyles}><code>{'>'}</code> Functional Programming*</li>
+                  <li style={sublistItemStyles}><code>{'>'}</code> Regression*</li>
                 </ul>
               </p>
             </div>
           </div>
 
-          <div class="bg-[#001126] hover:bg-[#001126] duration-150 overflow-hidden shadow-sm"> {/* Dark blue/black background */}
+          <div class="bg-[#001733] hover:bg-[#001126] duration-150 overflow-hidden shadow-sm"> {/* Dark blue/black background */}
             <div class="px-12 py-10">
               <button class="text-lg mb-2 px-1 py-0.5 text-[#e7a869]"><code>{'{'}experience{'}'}</code></button> {/* Orange text */}
               <p class="my-4">
                 <ul>
-                  <li style={listItemStyles}><code>{'>'}{'>'}</code> Summer 2025 | Incoming Software Engineer Intern @ <b class="text-[#e7a869]">Hudson River Trading</b></li> {/* Orange text */}
+                  <li style={listItemStyles}><code>{'>'}{'>'}</code> Summer 2025 | Incoming SWE Intern @ <b class="text-[#e7a869]">Hudson River Trading</b></li> {/* Orange text */}
                   <li style={listItemStyles}><code>{'>'}{'>'}</code> Fall 2024 | Undergraduate Research Fellow @ <b class="text-[#e7a869]">Princeton Data-Driven Social Science</b></li> {/* Orange text */}
-                  <li style={listItemStyles}><code>{'>'}{'>'}</code> Summer 2024 | Software Engineer Intern @ <b class="text-[#e7a869]">Bloomberg L.P.</b></li>
+                  <li style={listItemStyles}><code>{'>'}{'>'}</code> Summer 2024 | SWE Intern @ <b class="text-[#e7a869]">Bloomberg L.P.</b></li>
                   <li style={listItemStyles}><code>{'>'}{'>'}</code> Spring 2024 | Trading and Technology Winter Intern @ <b class="text-[#e7a869]">Hudson River Trading</b></li>
-                  <li style={listItemStyles}><code>{'>'}{'>'}</code> Spring 2023 ~ present | COS226 Grading Manager @ <b class="text-[#e7a869]">Princeton Computer Science</b></li>
-                  <li style={listItemStyles}><code>{'>'}{'>'}</code> Summer 2023 | Software Engineer Intern @ <b class="text-[#e7a869]">Cadence Design Systems</b></li>
+                  <li style={listItemStyles}><code>{'>'}{'>'}</code> Spring 2023 ~ now | COS226 Grading Manager @ <b class="text-[#e7a869]">Princeton CS Department</b></li>
+                  <li style={listItemStyles}><code>{'>'}{'>'}</code> Summer 2023 | SWE Intern @ <b class="text-[#e7a869]">Cadence Design Systems</b></li>
                 </ul>
               </p>
             </div>
@@ -157,41 +151,39 @@ const IndexPage = () => {
 
         <br />
 
-        <section style={poemStyles} class="bg-white p-8 my-4">
+        <section style={poemStyles} class="p-8 my-4">
 
           <div class="underline mb-4">the foreigner<br /></div>
-          <b>i. <em>chu-sheng</em> / beginning: </b>
-          i am the daughter of two tigers.
-          my mother rubs bitter spice between her fingers,
-          her fortunes cradled in ginger embraces.
-          she tells me of a Goddess’s flour-streaked hands
-          birthing <em>zong zi</em> children, fated to drown
-          in riverboats of dried bamboo leaves.
-          i recall forgotten summer stories:
-          a Monkey King dancing in peach nectar,
-          sprouting sunflower seeds cracked between loose teeth,
-          tiger balm staining my elbows forest-green.
-          my mother finds the world's secrets hidden
-          within the Budda’s face, by the smoke of the cloying incense.
-          i see them beyond the curve of her crescent smile.
+          <b>I. <em>beginning:</em> </b> <br />
+          i am the daughter of two tigers <br />
+          my mother rubs bitter spice between her fingers, <br />
+          her fortunes cradled in ginger embraces <br />
+          she tells me of a Goddess’s flour-streaked hands <br />
+          birthing <em>zong zi</em> children, fated to drown <br />
+          in riverboats of dried bamboo leaves <br />
+          i recall: a Monkey King dancing in peach nectar <br />
+          sunflower seeds cracked between baby teeth <br />
+          tiger balm staining my elbows forest-green <br />
+          my mother searches for the world's secrets<br />
+          within the Budda’s face, on her lonesome altar <br />
+          i find them in the curve of her crescent smile <br />
           <br /><br />
-          <b>ii. <em>jie-ju</em> / end: </b>
-          i am the lover of the half-melted mango sun.
-          so on the fullest moon, i gulp down salted egg yolks,
-          devour crushed sesame and lotus paste in the dark.
-          reluctantly, my grandfather hands me his remaining jade elephants.
-          my memories of this town flicker like a damp mirage.
-          i turn towards:
-          the city overrun with a thousand western luxuries,
-          bloodstains of a hundred past conquerors,
-          one too-tight <em>qi pao</em>.
-          a skyline awaits me
-          (then in terminal 50–65, i shed my skin from the past twenty-eight days).
-          two tigers and i fly into the horizon.
+          <b>II. <em>end:</em></b> <br />
+          i am the lover of the half-melted mango sun <br />
+          so on the fullest moon, i gulp down salted egg yolks <br />
+          devour crushed sesame and lotus paste in the dark <br />
+          my father hands over his remaining jade elephants <br />
+          memories of here flicker like a damp mirage <br />
+          i turn towards: the city of western luxuries <br />
+          bloodstains of a hundred past conquerors, <br />
+          one too-tight <em>qi pao</em> on the floor<br />
+          my world beckons beyond terminal 50-65 <br />
+          (i shed a skin from the past twenty-eight days) <br />
+          two tigers and i fly into the horizon <br />
           <br /><br /><em class="text-sm">modified part of "origin" collection - awarded gold medal in the 2021 scholastic art and writing awards</em>
         </section>
 
-        <section style={poemStyles} class="bg-white p-8 my-4">
+        <section style={poemStyles} class="p-8 my-4">
           <div class="underline mb-4">eight ph(r)ases of chang’e monologue <br /></div>
           inspired by the legend of chang'e, the scorned goddess of the moon in chinese mythology <br />
           I. My palace is cold. Far away<br />
