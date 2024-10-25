@@ -48,8 +48,8 @@ const pageStyles = {
 const dynamicClasses = {
   bgColor: `bg-[${colors.editorBackground}]`,
   textColor: `text-[${colors.editorForeground}]`,
-  titleColor: `text-[${colors.titleBarActiveBackground}] hover:bg-[${colors.activityBarBackground}] hover:text-[${colors.terminalAnsiYellow}]`,
-  subtitleColor: `text-[${colors.terminalAnsiCyan}] hover:bg-[${colors.activityBarBackground}] hover:text-[${colors.terminalAnsiGreen}]`,
+  titleColor: `text-[${colors.titleBarActiveBackground}] bg-[${colors.activityBarBackground}] hover:bg-[${colors.terminalAnsiCyan}$] hover:text-[${colors.terminalAnsiYellow}]`,
+  subtitleColor: `text-[${colors.terminalAnsiCyan}] bg-[${colors.activityBarBackground}] hover:text-[${colors.terminalAnsiGreen}]`,
   blockColor1: `bg-[${colors.terminalAnsiGreen}]`,
   spanColor1: `decoration-[${colors.terminalAnsiGreenSpan}]`,
   blockColor2: `bg-[${colors.terminalAnsiRed}]`,
