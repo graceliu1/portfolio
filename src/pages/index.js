@@ -19,7 +19,7 @@ const poemStyles = {
 // Colors object to store all color values
 const colors = {
   editorBackground: "#002451",
-  editorForeground: "#ffffff",
+  editorForeground: "#b3d0f2",
   terminalAnsiRed: "#ff9da4",
   terminalAnsiGreen: "#d1f1a9",
   editorGroupBorder: "#404f7d",
@@ -39,7 +39,7 @@ const colors = {
 // Page styles
 const pageStyles = {
   padding: 96,
-  fontFamily: "Open Sans, -apple-system, Roboto, sans-serif, serif",
+  fontFamily: "Roboto, Open Sans, -apple-system, sans-serif, serif",
   backgroundColor: colors.editorBackground,
   color: colors.editorForeground,
 }
@@ -48,8 +48,8 @@ const pageStyles = {
 const dynamicClasses = {
   bgColor: `bg-[${colors.editorBackground}]`,
   textColor: `text-[${colors.editorForeground}]`,
-  titleColor: `text-[${colors.titleBarActiveBackground}] bg-[${colors.activityBarBackground}] hover:bg-[${colors.terminalAnsiCyan}$] hover:text-[${colors.terminalAnsiYellow}]`,
-  subtitleColor: `text-[${colors.terminalAnsiCyan}] bg-[${colors.activityBarBackground}] hover:text-[${colors.terminalAnsiGreen}]`,
+  titleColor: `text-[${colors.titleBarActiveBackground}] bg-[${colors.activityBarBackground}] hover:bg-[${colors.editorBackground}] hover:text-[${colors.terminalAnsiYellow}]`,
+  subtitleColor: `text-[${colors.terminalAnsiCyan}] bg-[${colors.activityBarBackground}] hover:bg-[${colors.editorBackground}] hover:text-[${colors.terminalAnsiGreen}]`,
   blockColor1: `bg-[${colors.terminalAnsiGreen}]`,
   spanColor1: `decoration-[${colors.terminalAnsiGreenSpan}]`,
   blockColor2: `bg-[${colors.terminalAnsiRed}]`,
@@ -70,7 +70,7 @@ const IndexPage = () => {
         <div id="top" className="my-3 h-screen items-center ">
 
           <button className={`inline-block my-4 ${dynamicClasses.titleColor} duration-150 text-4xl p-2`}>
-            <code>{'>'}{'>'} Grace Liu ٩(＾◡＾)۶</code>
+            <code> Grace Liu ٩(＾◡＾)۶</code>
           </button>
 
           <span className={`text-lg ml-5 inline-block float-right ${dynamicClasses.navbarText} duration-150`}>
