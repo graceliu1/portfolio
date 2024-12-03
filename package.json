@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/source-code-pro": "^5.1.0",
     "autoprefixer": "^10.4.16",
     "flowbite": "^2.2.0",
     "flowbite-react": "^0.7.0",

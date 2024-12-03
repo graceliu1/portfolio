@@ -39,11 +39,12 @@ const colors = {
 // Page styles
 const pageStyles = {
   padding: 96,
-  fontFamily: "Roboto, Open Sans, -apple-system, sans-serif, serif",
+  fontFamily: "Source Code Pro, Open Sans, -apple-system, sans-serif, serif",
   backgroundColor: colors.editorBackground,
   color: colors.editorForeground,
 }
 
+//<li><code>{'>'}{'>'}</code> Summer 2025 | Incoming SWE Intern @ <b className={dynamicClasses.orangeText}>Hudson River Trading</b></li> 
 // Dynamic Tailwind class templates for various elements
 const dynamicClasses = {
   bgColor: `bg-[${colors.editorBackground}]`,
@@ -69,7 +70,7 @@ const IndexPage = () => {
 
         <div id="top" className="my-3 h-screen items-center ">
 
-          <button className={`inline-block my-4 ${dynamicClasses.titleColor} duration-150 text-4xl p-2`}>
+          <button className={`inline-block my-4 ${dynamicClasses.titleColor} duration-150 text-4xl py-2 px-4`}>
             <code> Grace Liu ٩(＾◡＾)۶</code>
           </button>
 
@@ -161,7 +162,7 @@ const IndexPage = () => {
               </button>
               <p className="my-4">
                 <ul className={`${dynamicClasses.listColor} space-y-1`}>
-                  <li><code>{'>'}{'>'}</code> Summer 2025 | Incoming SWE Intern @ <b className={dynamicClasses.orangeText}>Hudson River Trading</b></li>
+
                   <li><code>{'>'}{'>'}</code> Fall 2024 | Undergraduate Research Fellow @ <b className={dynamicClasses.orangeText}>Princeton Data-Driven Social Science</b></li>
                   <li><code>{'>'}{'>'}</code> Summer 2024 | SWE Intern @ <b className={dynamicClasses.orangeText}>Bloomberg L.P.</b></li>
                   <li><code>{'>'}{'>'}</code> Spring 2024 | Trading and Technology Winter Intern @ <b className={dynamicClasses.orangeText}>Hudson River Trading</b></li>
